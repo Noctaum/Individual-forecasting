@@ -1,0 +1,96 @@
+.buttonS{
+	height: 35px;
+	width: 150px;
+	margin: 7px 0px 0px 15px;
+}
+
+input {
+	height: 35px;
+	width: 200px;
+	margin: 15px 0px 0px 15px;
+	border-radius: 4px;
+}
+
+.tableInput{
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	border-radius: 0px;
+}
+
+table{
+	width: 98%;
+	background-color: white;
+	border-collapse: collapse;
+	margin-bottom: 15px; 
+}
+
+td{
+	border: 1px solid #1f4d5e;
+	margin: auto;
+	text-align: center;
+}
+
+.crutcher{
+	margin-left: 15px;
+}
+
+canvas{
+	width: 500px;
+	height: 500px;
+}
+
+body{
+	padding-top: 20px;
+}
+
+.jumbotron{
+	background-color: #d3dfe3;
+}
+
+.main{
+	background-color: #d3dfe3;
+	border-radius: 6px;
+	padding-bottom: 15px;
+}
+
+hr{
+	width: 92%;
+	border: none;
+    color: #0a3b5e; 
+    background-color: #0a3b5e; 
+    height: 1px; 
+}
+
+.fromTo{
+	width: 30%;
+	display: inline-block;
+	margin: auto;
+}
+
+.to, .from {
+	width: 35%;
+	margin: auto;
+}
+
+.toIn, .fromIn {
+	width: 90%;
+	margin: auto;
+}
+
+.forP{
+	margin-bottom: 20px;
+}
+
+.lastInput{
+	height: 35px;
+	width: 200px;
+	margin: 15px 0px 0px 0px;
+	border-radius: 4px;
+}
+
+.tableLable{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0px;
+}
