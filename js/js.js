@@ -2,17 +2,16 @@ $("#buildBigTable").bind("click", builder);
 
 //Защита от ввода букв и дробных чисел
 $(document).on("keyup", ".number1", function() {
-if (this.value.match(/[^0-9]/g)) {
 this.value = this.value.replace(/[^0-9]/g, '');
-}
 });
 
 //Защиты от ввода букв
 $(document).on("keyup", ".number2", function() {
-if(this.value.match(/[,]/g))this.value = this.value.replace(/,/g , ".");
-if (this.value.match(/[^0-9.,]/g)) {
-this.value = this.value.replace(/[^0-9.,]/g, '');
-}});
+this.value = this.value.replace(/,/g , ".")
+			.replace(/[^\d.]*/g, '')
+                       .replace(/([.])[.]+/g, '$1')
+                       .replace(/^[^\d]*(\d+([.]\d{0,5})?).*$/g, '$1');
+});
 
 var rows, cols;
 var p11 = new Object();
