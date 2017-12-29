@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Challenge</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	 <link rel="stylesheet" type="text/css" href="css/css.css">
+	<script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+  <div class="container">
+	    <div class="jumbotron">
+	      <h2> <i class="fa fa-cog" aria-hidden="true"></i> Отбор транзисторов повышенного уровня надёжности методами индивидуального прогнозирования</h2>
+	    </div>
+	    <div class="main">
+				<div class="btn-group btn-group-justified" role="group">
+				  <div class="btn-group" role="group">
+				    <button id="planing" type="button" class="btn btn-warning active">Планирование</button>
+				  </div>
+				  <div class="btn-group" role="group">
+				    <button id="entry" type="button" class="btn btn-default" disabled>Запись результатов</button>
+				  </div>
+				  <div class="btn-group" role="group">
+				    <button id="buildTable" type="button" class="btn btn-default" disabled>Построение таблицы</button>
+				  </div>
+				  <div class="btn-group" role="group">
+				    <button id="buildSchedule" type="button" class="btn btn-default" disabled>Построение графика</button>
+				  </div>
+				  <div class="btn-group" role="group">
+				    <button id="logicTable" type="button" class="btn btn-default" disabled>Логическаяe таблица</button>
+				  </div>
+				</div>
+  			<div class="mainForInf">
+  				<div id="first">
+  					<p>Производим планирование обучающего эксперимента.</p>
+			      	<div>
+					    <div class="row box">
+					    	<label class="control" for="rows">Количество опытов</label>
+					    	<input class="number1" id="rows" placeholder="Количество опытов">
+					    </div>
+					  	<div class="row box">
+					  		<label class="control" for="cols">Количество праметров</label>
+					  		<input class="number1" id="cols" placeholder="Количество праметров">
+					  	</div>
+			      	</div>
+			      	<div>
+			       		<div class="row"><button id="firstBut" type="button" class="butForAll btn btn-primary"><i class="fa fa-cogs" aria-hidden="true"></i> Ввод</button></div>
+			     	</div>
+		  	   </div>
+
+		  	   <div id="second"></div>
+		  	   <div id="third"></div>
+		  	   <div id="fourth"></div>
+		  	   <div id="fifth"></div>
+
+
+
+
+		  </div>
+	    </div>
+	 </div>
+ 
+  	<script src="js/js.js"></script>
+</body>
+</html>
