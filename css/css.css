@@ -1,0 +1,90 @@
+
+.butForAll{
+	height: 35px;
+	width: 150px;
+	margin-left: 15px;
+}
+
+.box{
+	clear:both;
+	text-align:right;
+	width: 41%;
+	margin: 5px 0px 5px 0px;
+}
+
+.control{
+	float:left;
+}
+
+input {
+	width: 200px;
+	border-radius: 4px;
+}
+
+.rad{
+	width: 30px
+	
+}
+
+.tableInput{
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	border-radius: 0px;
+}
+
+.tableLable{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0px;
+}
+
+table{
+	width: 98%;
+	background-color: white;
+	border-collapse: collapse;
+	margin-bottom: 15px; 
+}
+
+td{
+	border: 1px solid #1f4d5e;
+	margin: auto;
+	text-align: center;
+}
+
+
+body{
+	padding-top: 20px;
+}
+
+.jumbotron{
+	background-color: #d3dfe3;
+}
+
+.main{
+	background-color: #d3dfe3;
+	border-radius: 6px;
+}
+
+.mainForInf{
+	background-color: #d3dfe3;
+	border-radius: 6px;
+	padding: 10px 15px 15px 15px;
+	margin-left: 10px;
+}
+
+hr{
+	width: 92%;
+	border: none;
+    color: #0a3b5e; 
+    background-color: #0a3b5e; 
+    height: 1px; 
+}
+
+p{
+	font-size: 15px;
+}
+
+#threshold{
+	margin-top: 10px;
+}
